@@ -48,7 +48,7 @@ public class Colorcito {
         // Copiamos el array original
         String[] copia = Arrays.copyOf(colores, colores.length);
 
-        // Mezclamos el array (Fisher–Yates shuffle)
+        // Mezclamos el array 
         for (int i = copia.length - 1; i > 0; i--) {
             int j = (int) (Math.random() * (i + 1));
             String temp = copia[i];
